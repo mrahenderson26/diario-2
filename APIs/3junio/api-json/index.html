@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+    </main>
+
+    <script>
+
+        const main = document.querySelector('main')
+
+        async function obtenerLibros() {
+            const response = await fetch('./biblioteca.json')
+            let data = await response.json()
+
+            console.log(data)
+
+            data.forEach((item) => {
+                const libro = `
+            <hr/>
+            ${item.titulo}<br/>
+            ${item.autor}<br/>
+            ${item.categoria.join(' - ')}.
+            `
+                main.innerHTML += libro;
+            })
+
+        };
+
+        obtenerLibros();
+
+    </script>

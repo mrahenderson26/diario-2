@@ -1,0 +1,41 @@
+<%- include("./partials/header.ejs"); %>
+
+    <body>
+        <h1>Modificar Pelicula</h1>
+
+        <form action="/modificar/<%= resultado.id %>" method="post">
+            <div>
+                <label for="titulo" class="form-label">Titulo</label>
+                <input type="text" id="titulo" name="titulo" class="form-control" value="<%= resultado.titulo %>">
+            </div>
+            <div>
+                <label for="director" class="form-label">Director</label>
+                <input type="text" id="director" name="director" class="form-control" value="<%= resultado.director %>">
+            </div>
+            <div>
+                <label for="genero" class="form-label">Genero</label>
+                <input type="text" id="genero" name="genero" class="form-control" value="<%= resultado.genero %>">
+            </div>
+            <div>
+                <label for="anio" class="form-label">Año</label>
+                <input type="text" id="anio" name="anio" class="form-control" value="<%= resultado.anio %>">
+            </div>
+            <div>
+                <label for="duracion" class="form-label">Duracion</label>
+                <input type="text" id="duracion" name="duracion" class="form-control" value="<%= resultado.duracion %>">
+            </div>
+            <div>
+                <label for="nota" class="form-label">Nota</label>
+                <input type="text" id="nota" name="nota" class="form-control" value="<%= resultado.nota %>">
+            </div>
+            <div>
+                <label for="pais" class="form-label">Pais</label>
+                <input type="text" id="pais" name="pais" class="form-control" value="<%= resultado.pais %>">
+            </div>
+
+            <button class="mt-2 btn btn-primary" type="submit">Modificar</button>
+
+        </form>
+    </body>
+
+<%- include("./partials/footer.ejs"); %>

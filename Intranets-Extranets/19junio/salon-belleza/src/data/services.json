@@ -1,0 +1,130 @@
+[
+  {
+    "id": "contract-review",
+    "title": "Contract Review",
+    "shortDesc": "AI-powered contract analysis that identifies risks, clauses, and opportunities in seconds.",
+    "description": "Our AI engine reviews contracts against thousands of legal precedents and common pitfalls. It highlights risky clauses, missing provisions, and negotiation opportunities so your team can move faster with confidence.",
+    "icon": "bi-file-earmark-text",
+    "features": [
+      "Clause-level risk scoring",
+      "Obligation extraction & calendar reminders",
+      "Multi-language contract support",
+      "Automated redlining suggestions",
+      "Version comparison & change tracking"
+    ],
+    "category": "contract",
+    "price": "From $99/mo"
+  },
+  {
+    "id": "legal-research",
+    "title": "Legal Research",
+    "shortDesc": "Instant access to relevant case law, statutes, and regulations tailored to your query.",
+    "description": "Stop spending hours in law libraries. CriterIA's legal research tool uses NLP to surface the most relevant precedents, statutes, and commentary from millions of documents. Get citation-ready summaries in minutes.",
+    "icon": "bi-search",
+    "features": [
+      "Natural language query support",
+      "Jurisdiction & court-level filters",
+      "Citation-ready summaries with Bluebook formatting",
+      "Historical search & saved queries",
+      "AI-generated case briefs"
+    ],
+    "category": "research",
+    "price": "From $149/mo"
+  },
+  {
+    "id": "document-automation",
+    "title": "Document Automation",
+    "shortDesc": "Generate polished legal documents from smart templates in minutes.",
+    "description": "Eliminate repetitive drafting with intelligent document assembly. Answer a guided questionnaire and our engine populates clauses, definitions, and schedules based on your inputs and jurisdiction-specific requirements.",
+    "icon": "bi-file-earmark-arrow-up",
+    "features": [
+      "Smart template library (NDAs, MSAs, SOWs, etc.)",
+      "Conditional logic & clause branching",
+      "Bulk document generation",
+      "E-signature integration (DocuSign, HelloSign)",
+      "Version control & audit trail"
+    ],
+    "category": "contract",
+    "price": "From $99/mo"
+  },
+  {
+    "id": "due-diligence",
+    "title": "Due Diligence",
+    "shortDesc": "Accelerate M&A and investment due diligence with AI-driven document review.",
+    "description": "Our platform ingests thousands of documents and automatically categorizes them, flags red-flag clauses, and generates a structured diligence report. Reduce review time by up to 80% while improving accuracy.",
+    "icon": "bi-clipboard-check",
+    "features": [
+      "Automated document classification",
+      "Risk flagging & materiality scoring",
+      "Custom checklist & playbook support",
+      "Virtual data room integration",
+      "Executive summary generation"
+    ],
+    "category": "compliance",
+    "price": "From $499/mo"
+  },
+  {
+    "id": "compliance-monitoring",
+    "title": "Compliance Monitoring",
+    "shortDesc": "Real-time regulatory monitoring and compliance alerts tailored to your industry.",
+    "description": "Stay ahead of regulatory changes with automated monitoring across thousands of government and regulatory sources. Receive tailored alerts and impact assessments so your business never misses a compliance deadline.",
+    "icon": "bi-shield-check",
+    "features": [
+      "Multi-regulatory source tracking",
+      "AI-powered impact analysis",
+      "Automated compliance calendar",
+      "Obligation register & reporting",
+      "GDPR, CCPA, SOC 2 readiness checks"
+    ],
+    "category": "compliance",
+    "price": "From $299/mo"
+  },
+  {
+    "id": "litigation-analytics",
+    "title": "Litigation Analytics",
+    "shortDesc": "Data-driven insights into judge rulings, opposing counsel, and case outcomes.",
+    "description": "Leverage historical case data to predict litigation outcomes and craft winning strategies. Analyze judge rulings, opposing counsel track records, and venue-specific trends with interactive dashboards.",
+    "icon": "bi-graph-up-arrow",
+    "features": [
+      "Judge & court analytics",
+      "Opposing counsel win-rate tracking",
+      "Case outcome predictions",
+      "Motion success probability scoring",
+      "Timetable & cost estimators"
+    ],
+    "category": "litigation",
+    "price": "From $399/mo"
+  },
+  {
+    "id": "ai-legal-assistant",
+    "title": "AI Legal Assistant",
+    "shortDesc": "Your 24/7 AI co-counsel for drafting, research, and quick legal answers.",
+    "description": "A conversational AI trained on legal corpora that helps you draft clauses, answer procedural questions, and summarize case law. Think of it as having a junior associate available around the clock.",
+    "icon": "bi-robot",
+    "features": [
+      "Natural language legal Q&A",
+      "Clause drafting & refinement",
+      "Procedural guidance & checklist generation",
+      "Multi-jurisdictional support",
+      "Secure conversation history & export"
+    ],
+    "category": "general",
+    "price": "From $199/mo"
+  },
+  {
+    "id": "e-discovery",
+    "title": "E-Discovery",
+    "shortDesc": "End-to-end electronic discovery with AI-powered tagging and privilege review.",
+    "description": "Process terabytes of email, chat logs, and documents with defensible AI workflows. Automated privilege screening, predictive coding, and near-duplicate detection reduce review costs by up to 70%.",
+    "icon": "bi-folder-symlink",
+    "features": [
+      "Automated ESI ingestion & processing",
+      "Predictive coding & TAR 2.0",
+      "Privilege log auto-generation",
+      "Advanced analytics (email threading, concept clustering)",
+      "Production-ready export (TIFF, PDF, native)"
+    ],
+    "category": "litigation",
+    "price": "From $599/mo"
+  }
+]

@@ -1,0 +1,11 @@
+figure {
+    margin-bottom: 6px;
+}
+
+figure iframe {
+    padding: 1em;
+    border: ridge 2px maroon;
+    box-shadow: 4px 6px 8px;
+    max-width: 90vw;
+}
+

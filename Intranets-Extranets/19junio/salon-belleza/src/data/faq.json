@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "General",
+    "question": "What is CriterIA?",
+    "answer": "CriterIA is an AI-powered legal technology platform designed specifically for SMEs and startups. We offer eight integrated services ranging from contract review and document automation to compliance monitoring and litigation analytics, all aimed at making high-quality legal support affordable and accessible."
+  },
+  {
+    "id": 2,
+    "category": "General",
+    "question": "How does your AI work, and is it reliable?",
+    "answer": "Our AI models are trained on millions of legal documents and continuously fine-tuned by practicing attorneys. Every output includes source citations and confidence scores so you can verify the reasoning. We recommend treating AI-generated content as a starting point that should always be reviewed by a qualified legal professional."
+  },
+  {
+    "id": 3,
+    "category": "Security",
+    "question": "How do you protect my confidential data?",
+    "answer": "All data is encrypted at rest (AES-256) and in transit (TLS 1.3). We host on SOC 2 Type II certified infrastructure with strict access controls, regular penetration testing, and audit logging. We never train our models on customer documents unless explicitly opted in, and you can request data deletion at any time."
+  },
+  {
+    "id": 4,
+    "category": "Billing",
+    "question": "How does pricing work? Do you have a free trial?",
+    "answer": "We offer three plans: Basic ($99/mo), Pro ($299/mo), and Enterprise with custom pricing. All plans come with a 14-day free trial with no credit card required. Annual billing gives you two months free. Enterprise plans include dedicated onboarding, custom integrations, and priority support."
+  },
+  {
+    "id": 5,
+    "category": "Billing",
+    "question": "Can I upgrade or downgrade my plan at any time?",
+    "answer": "Yes. You can change your plan at any point. Upgrades take effect immediately, while downgrades apply at the start of the next billing cycle. Usage credits and stored documents carry over between plans so you never lose your work."
+  },
+  {
+    "id": 6,
+    "category": "Platform",
+    "question": "Does CriterIA integrate with tools we already use?",
+    "answer": "Yes. CriterIA offers native integrations with Salesforce, Slack, Microsoft Teams, DocuSign, HelloSign, Box, Dropbox, and Google Workspace. We also provide a REST API and webhook support for custom integrations with your existing tech stack."
+  },
+  {
+    "id": 7,
+    "category": "Platform",
+    "question": "What is your uptime guarantee and support availability?",
+    "answer": "We guarantee 99.9% uptime for all paid plans, backed by a service credit SLA. Pro and Enterprise plans include priority support with a 4-hour response window. Enterprise clients also get a dedicated account manager and 24/7 phone support."
+  },
+  {
+    "id": 8,
+    "category": "Security",
+    "question": "Can CriterIA be customized for our firm's specific workflows?",
+    "answer": "Enterprise customers receive full customization including white-label options, custom template libraries, bespoke compliance playbooks, and tailored AI model fine-tuning. Our solutions engineering team works with you to map your exact workflows before deployment."
+  }
+]

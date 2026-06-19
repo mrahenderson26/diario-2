@@ -1,0 +1,46 @@
+.education-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.34fr);
+  gap: 1rem;
+}
+
+.education-list,
+.languages-card {
+  margin: 0;
+  padding: 1.2rem;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.045);
+}
+
+.education-list {
+  display: grid;
+  gap: 0.75rem;
+  list-style-position: inside;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.languages-card h3 {
+  margin: 0 0 0.75rem;
+  color: #0f172a;
+}
+
+.languages-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.languages-card li {
+  color: #334155;
+}
+
+@media (max-width: 800px) {
+  .education-layout {
+    grid-template-columns: 1fr;
+  }
+}

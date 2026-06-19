@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "La casa de los espíritus",
+        "autor": "Isabel Allende",
+        "categoria": ["realismo mágico", "novela"]
+    },
+    {
+        "titulo": "El caso Bourne",
+        "autor": "Robert Ludlum",
+        "categoria": ["espionaje", "novela"]
+    },
+    {
+        "titulo": "IT",
+        "autor": "Stephen King",
+        "categoria": ["terror", "novela"]
+    }
+]

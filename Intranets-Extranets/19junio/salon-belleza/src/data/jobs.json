@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Senior NLP Engineer",
+    "location": "San Francisco, CA",
+    "type": "Full-time",
+    "department": "Engineering",
+    "description": "We are looking for a Senior NLP Engineer to design and train large language models specifically for legal domain understanding. You will work on contract clause classification, semantic search over legal corpora, and citation-aware generation.",
+    "requirements": [
+      "5+ years of experience in NLP/ML engineering",
+      "Strong proficiency in Python and PyTorch or TensorFlow",
+      "Experience with transformer architectures (BERT, T5, GPT)",
+      "Familiarity with legal or professional services domain is a plus",
+      "Published research at top-tier NLP conferences is highly valued"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Legal Product Manager",
+    "location": "New York, NY",
+    "type": "Full-time",
+    "department": "Product",
+    "description": "Drive the roadmap for our flagship Contract Review and Due Diligence products. You will work directly with legal practitioners to understand pain points and translate them into product features that delight users.",
+    "requirements": [
+      "3+ years of product management experience in B2B SaaS",
+      "Understanding of legal workflows and terminology",
+      "Experience conducting user research and usability testing",
+      "Strong written communication and stakeholder management skills",
+      "J.D. or prior legal tech experience strongly preferred"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Customer Success Manager",
+    "location": "Remote",
+    "type": "Remote",
+    "department": "Customer Success",
+    "description": "Own the post-sale relationship for our Enterprise clients. You will drive adoption, conduct training sessions, monitor health scores, and serve as the voice of the customer to our product and engineering teams.",
+    "requirements": [
+      "3+ years of customer success or account management experience",
+      "Experience managing enterprise accounts with multiple stakeholders",
+      "Familiarity with legal or compliance software is preferred",
+      "Excellent presentation and training skills",
+      "Ability to travel to customer sites up to 25% of the time"
+    ]
+  }
+]

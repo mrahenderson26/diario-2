@@ -1,0 +1,52 @@
+<%- include("./partials/header.ejs"); %>
+
+    <body>
+        <a href="/alta" class="btn btn-primary">Añadir Película</a>
+        <table class="table">
+            <th>
+            <td>Titulo</td>
+            <td>Director</td>
+            <td>Genero</td>
+            <td>Año</td>
+            <td>Duracion</td>
+            <td>Nota</td>
+            <td>Pais</td>
+            </th>
+            <% rows.forEach(item=> { %>
+                <tr>
+                    <td>
+                        <%= item.id %>
+                    </td>
+                    <td>
+                        <%= item.titulo %>
+                    </td>
+                    <td>
+                        <%= item.director %>
+                    </td>
+                    <td>
+                        <%= item.genero %>
+                    </td>
+                    <td>
+                        <%= item.anio %>
+                    </td>
+                    <td>
+                        <%= item.duracion %>
+                    </td>
+                    <td>
+                        <%= item.nota %>
+                    </td>
+                    <td>
+                        <%= item.pais %>
+                    </td>
+                    <td>
+                        <a class="btn btn-warning" href="/editar/<%= item.id %>"><i class="bi bi-pencil-fill"></i></a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/borrar/<%= item.id %>"><i class="bi bi-trash"></i></a>
+                    </td>
+                </tr>
+                <% }) %>
+        </table>
+    </body>
+
+<%- include("./partials/footer.ejs"); %>

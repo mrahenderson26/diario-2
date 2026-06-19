@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs")%>
+
+<h1><%= titulo %></h1>
+<p><%= mensaje %></p>
+
+<% if (typeof ticket !== "undefined" && ticket) { %>
+    <ul>
+        <li><strong>Nombre:</strong> <%= ticket.nombre %></li>
+        <li><strong>Email:</strong> <%= ticket.email %></li>
+    </ul>
+<% } %>
+
+<p>
+    <a class="btn btn-primary" href="/">Volver al listado</a>
+</p>
+
+<%- include("partials/footer.ejs")%>

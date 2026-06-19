@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Elena Vasquez",
+    "role": "CEO & Co-Founder",
+    "bio": "Former Big Law partner turned legal-tech entrepreneur with a mission to democratize access to legal intelligence for growing businesses.",
+    "avatar": "/src/assets/images/avatar-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "David Koren",
+    "role": "CTO & Co-Founder",
+    "bio": "AI researcher and seasoned engineer who previously built NLP systems at DeepMind and now leads CriterIA's machine learning team.",
+    "avatar": "/src/assets/images/avatar-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Priya Mehta",
+    "role": "Head of Product",
+    "bio": "Legal operations veteran who bridges the gap between legal practitioners and engineering to build tools lawyers actually love using.",
+    "avatar": "/src/assets/images/avatar-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Carlos Mendes",
+    "role": "VP of Engineering",
+    "bio": "Full-stack architect with a decade of experience scaling SaaS platforms and a passion for building secure, compliant cloud infrastructure.",
+    "avatar": "/src/assets/images/avatar-4.jpg"
+  }
+]

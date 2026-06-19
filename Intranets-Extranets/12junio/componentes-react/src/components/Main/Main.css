@@ -1,0 +1,11 @@
+/* App.css or Main.css */
+
+.container {
+    text-align: center;       /* Centers inline/inline-block text inside */
+    margin: 0 auto;           /* Centers the container itself horizontally */
+    max-width: 800px;         /* Optional: restrict width for better appearance */
+}
+
+.container section {
+    margin-bottom: 2rem;      /* Space between sections */
+}

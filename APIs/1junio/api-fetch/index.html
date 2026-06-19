@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="button">Ver chiste</button>
+    <div id="display"></div>
+
+    <script>
+
+        const display = document.getElementById("display")
+
+        window.setInterval(mostrarChiste, "3000")
+
+        document.getElementById("button").addEventListener("click", mostrarChiste)
+
+        async function mostrarChiste() {
+            const respuesta = await fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=explicit&type=single")
+            const data = await respuesta.json()
+            console.log(data)
+            display.textContent = data.joke
+        }
+
+    </script>
+
+</body>
+
+</html>

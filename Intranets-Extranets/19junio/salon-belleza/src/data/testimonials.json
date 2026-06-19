@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Sofia Ramírez",
+    "role": "General Counsel",
+    "company": "Nexo Ventures",
+    "text": "CriterIA cut our contract review time by 70%. What used to take my team three days now takes a few hours. The risk-scoring feature alone has saved us from signing two unfavorable agreements this quarter.",
+    "avatar": "/src/assets/images/avatar-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Chen",
+    "role": "CEO & Co-Founder",
+    "company": "Brightpath Robotics",
+    "text": "As a startup, we couldn't afford a full-time legal team. CriterIA gave us enterprise-grade compliance monitoring at a fraction of the cost. The regulatory alerts have been a game-changer for our expansion plans.",
+    "avatar": "/src/assets/images/avatar-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Amara Diallo",
+    "role": "Head of Legal Operations",
+    "company": "Pinnacle Financial Group",
+    "text": "The document automation module alone paid for itself within the first month. We went from struggling with manual NDA workflows to generating 200+ customized agreements per week with zero errors.",
+    "avatar": "/src/assets/images/avatar-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "James Okafor",
+    "role": "Managing Partner",
+    "company": "Okafor & Associates",
+    "text": "We were skeptical about AI in legal practice, but CriterIA proved us wrong. The litigation analytics helped us win a case by revealing a judge's granting patterns we had completely overlooked.",
+    "avatar": "/src/assets/images/avatar-4.jpg"
+  }
+]

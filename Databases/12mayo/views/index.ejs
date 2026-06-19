@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("partials/header") -%>
+
+    <body>
+
+        <div class="container">
+            <h3>Aplicación Express</h3>
+            <h1>
+                <%= data.nombre %>
+            </h1>
+            <h1>
+                <%= data.usuario %>
+            </h1>
+            <h1>
+                <%= data.password %>
+            </h1>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+
+        <%- include("partials/footer") -%>
+
+    </body>
+
+</html>

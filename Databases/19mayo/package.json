@@ -1,0 +1,17 @@
+{
+  "name": "18mayo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express_peliculas.js",
+  "scripts": {
+"start": "nodemon express_peliculas.js"  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3",
+    "nodemon": "^3.1.14"
+  }
+}

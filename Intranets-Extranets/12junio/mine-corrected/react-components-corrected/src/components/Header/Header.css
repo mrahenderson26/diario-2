@@ -1,0 +1,28 @@
+.site-header {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.header-figure {
+  margin: 0 0 1rem;
+}
+
+.retrato {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.site-header h1,
+.site-header h2 {
+  margin: 0.4rem 0;
+}
+
+.site-header h2 {
+  font-size: 1.4rem;
+  color: #555;
+}

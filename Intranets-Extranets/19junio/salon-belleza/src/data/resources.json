@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "The SME Guide to AI-Powered Legal Operations",
+    "type": "Whitepaper",
+    "description": "A comprehensive 40-page whitepaper covering how small and medium enterprises can leverage AI to reduce legal costs, improve compliance, and scale their legal operations efficiently.",
+    "image": "/src/assets/images/resource-whitepaper.jpg",
+    "downloadUrl": "#"
+  },
+  {
+    "id": 2,
+    "title": "Getting Started with Contract Automation",
+    "type": "Guide",
+    "description": "Step-by-step playbook for implementing contract automation in your organization, from template design to AI-powered review workflows and e-signature integration.",
+    "image": "/src/assets/images/resource-guide.jpg",
+    "downloadUrl": "#"
+  },
+  {
+    "id": 3,
+    "title": "Compliance Readiness Checklist for Startups",
+    "type": "Guide",
+    "description": "An actionable checklist covering GDPR, CCPA, SOC 2, and industry-specific regulations to help startups build compliance into their operations from day one.",
+    "image": "/src/assets/images/resource-checklist.jpg",
+    "downloadUrl": "#"
+  },
+  {
+    "id": 4,
+    "title": "From Manual to Machine: A Legal Tech Transformation Story",
+    "type": "Case Study",
+    "description": "How a 200-person SaaS company transformed its legal department from manual, paper-based processes to a fully AI-augmented operation in under six months.",
+    "image": "/src/assets/images/resource-case-study.jpg",
+    "downloadUrl": "#"
+  }
+]

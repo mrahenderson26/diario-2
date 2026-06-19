@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Lista de archivos</h1>
+            <p>Puedes añadir una nueva imagen aquí:</p>
+            <a href="/multimedia/nuevo" class="btn btn-primary">Añadir Nuevo</a>
+
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Imagen</th>
+                    <th>Nombre Archivo</th>
+                    <th>Ruta</th>
+                    <th>Descripción</th>
+                    <th>Fecha de creación</th>
+                </tr>
+
+                <% archivos.forEach(archivo=> { %>
+                    <tr>
+                        <td>
+                            <%= archivo.id %>
+                        </td>
+
+                        <td>
+                            <a href="<%= archivo.ruta %>"><img width="150" class="img-fluid img-thumbnail" src="<%= archivo.ruta %>"
+                                    alt="<%= archivo.descripcion %>"></a>
+                        </td>
+
+                        <td>
+                            <%= archivo.nombre_original %>
+                        </td>
+
+                        <td>
+                            <%= archivo.ruta %>
+                        </td>
+
+                        <td>
+                            <%= archivo.descripcion %>
+                        </td>
+
+                        <td>
+                            <%= archivo.fecha_creacion %>
+                        </td>
+                    </tr>
+                    <% }) %>
+
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

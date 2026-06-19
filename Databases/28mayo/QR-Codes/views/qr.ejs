@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs")%>
+
+<h1>QR de tu entrada</h1>
+
+<figure>
+    <img src="<%= qr %>" alt="Código QR del ticket">
+    <figcaption>
+        Token: <code><%= token %></code><br>
+        URL de validación: <a href="<%= url %>"><%= url %></a>
+    </figcaption>
+</figure>
+
+<p>
+    <a class="btn btn-secondary" href="/">Volver al listado</a>
+</p>
+
+<%- include("partials/footer.ejs")%>

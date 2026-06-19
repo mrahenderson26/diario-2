@@ -1,0 +1,57 @@
+{
+  "monthly": true,
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "monthlyPrice": 99,
+      "annualPrice": 990,
+      "description": "Essential AI legal tools for startups and solopreneurs who need smart document assistance without the overhead.",
+      "features": [
+        "Contract Review (up to 50 docs/mo)",
+        "AI Legal Assistant (basic tier)",
+        "Document Automation (5 templates)",
+        "Email support within 24h",
+        "Community access & knowledge base"
+      ],
+      "highlighted": false,
+      "cta": "Start Free Trial"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "monthlyPrice": 299,
+      "annualPrice": 2990,
+      "description": "Designed for growing legal teams and SMEs that need advanced analytics, compliance tools, and priority support.",
+      "features": [
+        "All Basic features, unlimited docs",
+        "Legal Research Suite",
+        "Compliance Monitoring",
+        "Litigation Analytics",
+        "Priority support within 4h",
+        "Slack & Teams integrations",
+        "Unlimited custom templates"
+      ],
+      "highlighted": true,
+      "cta": "Start Free Trial"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "monthlyPrice": null,
+      "annualPrice": null,
+      "description": "Bespoke AI legal infrastructure for large firms and corporations with complex workflows, compliance needs, and dedicated support.",
+      "features": [
+        "All Pro features, unlimited everything",
+        "E-Discovery & Due Diligence",
+        "Dedicated account manager & 24/7 phone support",
+        "Custom AI model fine-tuning",
+        "On-premise deployment option",
+        "White-label branding",
+        "Custom integrations & SLA guarantees"
+      ],
+      "highlighted": false,
+      "cta": "Contact Sales"
+    }
+  ]
+}

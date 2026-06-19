@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input placeholder="Input a task" type="text" id="tarea">
+    <button id="btn-agregar">Agregar</button>
+
+    <ol id="display"></ol>
+
+    <script>
+
+        const tarea = document.getElementById("tarea");
+        const display = document.getElementById("display");
+        const btnAgregar = document.getElementById("btn-agregar");
+
+        btnAgregar.addEventListener("click", agregarTarea);
+        const tareas = JSON.parse(localStorage.getItem("tareas")) || [];        
+
+        function agregarTarea() {
+            const nuevaTarea = tarea.value;
+            tareas.push(nuevaTarea);
+            localStorage.setItem("tareas", JSON.stringify(tareas));
+            mostrarTareas();
+        };
+
+        function mostrarTareas() {
+            display.innerHTML = "";
+            tareas.forEach(item => {
+                display.innerHTML += `<li>${item}</li>`;
+            });
+        };
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs")%>
+
+<h1>Proyecto QR Tickets</h1>
+
+<p class="text-end">
+    <a class="btn btn-primary" href="/create">Crear un ticket</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Token</th>
+            <th>Usada</th>
+            <th>Validar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% tickets.forEach(ticket => { %>
+            <tr>
+                <td><%= ticket.nombre %></td>
+                <td><%= ticket.email %></td>
+                <td><code><%= ticket.token %></code></td>
+                <td><%= ticket.usada ? "Sí" : "No" %></td>
+                <td><a href="/validate/<%= ticket.token %>">Validar</a></td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
+
+<%- include("partials/footer.ejs")%>

@@ -1,0 +1,169 @@
+:root {
+  --brand-purple: #2D1B69;
+  --brand-blue: #0055FF;
+  --brand-dark: #1a0f3c;
+  --brand-light: #f0edf7;
+  --brand-accent: #0055FF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: var(--brand-dark) !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #fff !important;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--brand-purple), var(--brand-dark));
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand-purple));
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--brand-blue);
+  color: var(--brand-blue);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--brand-blue);
+  color: #fff;
+}
+
+.text-brand-purple {
+  color: var(--brand-purple);
+}
+
+.text-brand-blue {
+  color: var(--brand-blue);
+}
+
+.bg-brand-purple {
+  background-color: var(--brand-purple);
+}
+
+.bg-brand-light {
+  background-color: var(--brand-light);
+}
+
+.hero-section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--brand-dark), var(--brand-purple));
+  color: #fff;
+}
+
+.section-padding {
+  padding: 3rem 0;
+}
+
+.feature-card,
+.service-card {
+  border: none;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover,
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(45, 27, 105, 0.15);
+}
+
+.pricing-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.pricing-card.featured {
+  border: 2px solid var(--brand-blue);
+  box-shadow: 0 0 0 1px var(--brand-blue);
+}
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.footer {
+  background-color: var(--brand-dark);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+[data-bs-theme="dark"] body {
+  background-color: #121212;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .navbar {
+  background-color: #0d0d0d !important;
+}
+
+[data-bs-theme="dark"] .testimonial-card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+[data-bs-theme="dark"] .pricing-card {
+  border-color: #333;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .section-padding {
+    padding: 2rem 0;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

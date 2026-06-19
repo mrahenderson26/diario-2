@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto ejemplo: localStorage</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <p class="eyebrow">Cliente / navegador</p>
+    <h1>Proyecto ejemplo: localStorage</h1>
+    <p>
+      Este proyecto compara una variable normal de JavaScript,
+      <code>sessionStorage</code> y <code>localStorage</code>.
+    </p>
+  </header>
+
+  <main class="layout">
+    <section class="card">
+      <h2>1. Variable JS</h2>
+      <p>
+        Esta variable vive solo mientras la página está cargada.
+        Si recargas, vuelve a cero.
+      </p>
+
+      <p class="display">
+        Contador temporal:
+        <strong id="contador-variable">0</strong>
+      </p>
+
+      <button id="sumar-variable">Sumar</button>
+    </section>
+
+    <section class="card">
+      <h2>2. sessionStorage</h2>
+      <p>
+        Este dato permanece al recargar, pero desaparece al cerrar la pestaña.
+      </p>
+
+      <label for="nota-session">Nota temporal</label>
+      <input id="nota-session" type="text" placeholder="Ej. estudiar fetch" />
+
+      <div class="button-row">
+        <button id="guardar-session">Guardar en sessionStorage</button>
+        <button id="borrar-session" class="secondary">Borrar</button>
+      </div>
+
+      <p class="display">
+        Nota guardada:
+        <strong id="valor-session">Nada todavía</strong>
+      </p>
+    </section>
+
+    <section class="card featured">
+      <h2>3. localStorage: lista de tareas persistente</h2>
+      <p>
+        Estas tareas permanecen aunque cierres y vuelvas a abrir el navegador.
+      </p>
+
+      <label for="tarea">Nueva tarea</label>
+      <input id="tarea" type="text" placeholder="Ej. repasar JSON.stringify()" />
+
+      <div class="button-row">
+        <button id="guardar-tarea">Guardar tarea</button>
+        <button id="borrar-tareas" class="danger">Borrar todas</button>
+      </div>
+
+      <ul id="lista"></ul>
+    </section>
+
+    <section class="card">
+      <h2>4. fetch + localStorage</h2>
+      <p>
+        Este botón pide un usuario a una API de prueba y lo guarda localmente.
+        Luego puedes reutilizarlo sin hacer otra petición.
+      </p>
+
+      <div class="button-row">
+        <button id="fetch-usuario">Pedir usuario con fetch</button>
+        <button id="usar-cache" class="secondary">Usar usuario guardado</button>
+        <button id="borrar-usuario" class="secondary">Borrar usuario</button>
+      </div>
+
+      <pre id="usuario-output">No hay usuario cargado.</pre>
+    </section>
+
+    <section class="card warning">
+      <h2>Recordatorio de seguridad</h2>
+      <p>
+        No guardes contraseñas, tokens sensibles ni datos personales delicados
+        en <code>localStorage</code>, porque cualquier JavaScript de la página
+        puede leerlos.
+      </p>
+    </section>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

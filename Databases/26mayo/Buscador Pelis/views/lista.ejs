@@ -1,0 +1,5 @@
+<ul>
+  <% registros.forEach(item => { %>
+    <li><a href="/pelicula/<%= item.id %>"> <%= item.titulo %> <%= item.anio %></a></li>
+  <% }) %>
+</ul>

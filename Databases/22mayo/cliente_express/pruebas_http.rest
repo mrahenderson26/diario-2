@@ -1,0 +1,47 @@
+
+GET http://localhost:3000/peliculas/id/3
+
+### Búsquedas por titulo
+GET http://localhost:3000/peliculas/buscar
+
+
+### Búsquedas por titulo
+GET http://localhost:3000/peliculas/buscar?q=mar
+
+### Obtener todas las películas
+GET http://localhost:3000/peliculas
+
+### Insertar una película
+POST http://localhost:3000/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "La vida de Brian",
+    "director": "Monty Python",
+    "anio": 1979,
+    "genero": "comedia",
+    "duracion": 180,
+    "nota": 9.8,
+    "pais": "Reino Unido"
+}
+
+### Insertar otra
+POST http://localhost:3000/peliculas
+Content-Type: application/json
+
+{
+    "titulo": "Apocalipsis Now",
+    "director": "Francis Ford Coppola",
+    "anio": 1979,
+    "genero": "bélico",
+    "duracion": 200,
+    "nota": 8.8,
+    "pais": "USA"
+}
+
+### Volver a consultar
+GET http://localhost:3000/peliculas
+
+
+
+

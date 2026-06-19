@@ -1,0 +1,12 @@
+footer.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    margin: 16px;
+}

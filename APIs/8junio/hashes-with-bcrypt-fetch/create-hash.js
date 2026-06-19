@@ -1,0 +1,12 @@
+import bcrypt from "bcrypt";
+
+async function ejemplo() {
+
+    const password = "123456";
+
+    const hash = await bcrypt.hash(password, 10);
+
+    console.log(hash);
+}
+
+ejemplo();

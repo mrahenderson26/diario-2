@@ -1,0 +1,20 @@
+biblioteca:
+  - Libro:
+    titulo: Los Pilares de la Tierra
+    autor: Ken Follet
+    genero:
+      - accion
+      - novela
+
+  - Libro:
+    titulo: En un lugar llamado libertad
+    autor: Los Pilares de la Tierra
+    genero:
+      - accion
+      - novela
+
+  - Libro:
+    titulo: El caso bourne
+    autor: Robert Ludlum
+    genero:
+      - accion

@@ -1,0 +1,60 @@
+# ====================================
+# Variables de entorno
+# ====================================
+
+@baseUrl = https://jsonplaceholder.typicode.com/
+@token = Bearer eyJhbGc...
+
+
+
+###
+# GET - Listar todos los usuarios
+GET {{baseUrl}}/posts?userId=1 HTTP/1.1
+Authorization: {{token}}
+Accept: application/json
+
+
+
+###
+# POST - Crear nuevo usuario
+POST {{baseUrl}}/users
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+"nombre": "Juan Pérez",
+"email": "juan@example.com",
+"edad": 28
+}
+
+
+
+###
+# PUT - Actualizar usuario completo
+PUT {{baseUrl}}/users/123
+Content-Type: application/json
+Authorization: {{token}}
+
+{
+"nombre": "Pedro García",
+"email": "pedro@example.com",
+"edad": "35"
+}
+
+
+
+###
+# DELETE - Eliminar usuario
+DELETE {{baseUrl}}/users/123 HTTP/1.1
+Authorization: {{token}}
+
+
+
+###
+# PATCH - Actualización parcial
+PATCH {{baseUrl}}/users/123
+Content-Type: application/json
+
+{
+"email": "nuevo@email.com"
+}

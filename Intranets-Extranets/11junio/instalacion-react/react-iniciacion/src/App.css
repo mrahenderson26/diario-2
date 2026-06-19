@@ -1,0 +1,8 @@
+.galeria-videos {
+  display: flex;
+  flex-wrap: wrap;    
+}
+
+.galeria-videos figure {
+  max-width: 80vw;    
+}

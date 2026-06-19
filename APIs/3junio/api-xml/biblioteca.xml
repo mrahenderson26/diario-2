@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<biblioteca>
+
+    <libro categoria="realismo mágico, novela">
+        <titulo>La Casa de los Espíritus</titulo>
+        <autor>Isabel Allende</autor>
+    </libro>
+
+    <libro categoria="espía, novela">
+        <titulo>El caso Bourne</titulo>
+        <autor>Robert Ludlum</autor>
+    </libro>
+
+    <libro categoria="terror, novela">
+        <titulo>IT</titulo>
+        <autor>Stephen King</autor>
+    </libro>
+
+</biblioteca>

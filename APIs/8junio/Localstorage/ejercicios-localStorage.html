@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input placeholder="Entra nombre" type="text" id="nombre">
+    <button id="agregarNombre">Agregar Nombre</button>
+    <button id="mostrarNombre">Mostrar Nombre</button>
+
+    <div id="display"></div>
+
+    <script>
+        const nombre = document.getElementById("nombre");
+        const btn1 = document.getElementById("agregarNombre");
+        const btn2 = document.getElementById("mostrarNombre");
+
+        btn1.addEventListener("click", agregarNombre);
+        btn2.addEventListener("click", mostrarNombre);
+
+        function agregarNombre() {
+            const nuevoNombre = JSON.stringify(nombre.value);
+            // const nuevoNombre = nombre.value;
+            localStorage.setItem("nombre", nuevoNombre);
+            console.log(`Se ha guardado el nombre: ${nuevoNombre}`)
+        };
+
+        function mostrarNombre() {
+            const nombreObtenido = JSON.parse(localStorage.getItem("nombre"));
+            // const nombreObtenido = localStorage.getItem("nombre");
+
+            display.innerHTML = `El nombre guardado es: <p>${nombreObtenido}</p>`;
+        };
+    </script>
+
+</body>
+
+</html>

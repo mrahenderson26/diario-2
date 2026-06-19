@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca XML</title>
+</head>
+
+<body>
+    <main></main>
+
+    <script>
+        const main = document.querySelector('main');
+
+        async function obtenerLibros() {
+            const response = await fetch('./biblioteca.xml');
+
+            // XML is loaded as plain text first
+            const xmlTexto = await response.text();
+
+            // Convert the text into an XML document
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(xmlTexto, 'application/xml');
+
+            console.log(xml);
+
+            // Get all <libro> elements
+            const libros = xml.querySelectorAll('libro');
+
+            libros.forEach((item) => {
+                const titulo = item.querySelector('titulo').textContent;
+                const autor = item.querySelector('autor').textContent;
+
+                // categoria is an attribute, not a child element
+                const categoria = item
+                    .getAttribute('categoria')
+                    .split(',')
+                    .map(cat => cat.trim())
+                    .join(' - ');
+
+                const libro = `
+                    <hr/>
+                    ${titulo}<br/>
+                    ${autor}<br/>
+                    ${categoria}.
+                `;
+
+                main.innerHTML += libro;
+            });
+        }
+
+        obtenerLibros();
+    </script>
+</body>
+
+</html>

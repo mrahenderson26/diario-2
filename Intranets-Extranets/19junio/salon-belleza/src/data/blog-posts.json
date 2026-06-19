@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ai-contract-review-benefits",
+    "title": "5 Ways AI Contract Review Saves Your Legal Team 20+ Hours Per Week",
+    "excerpt": "Discover how machine learning is transforming contract review from a tedious manual process into a strategic advantage for legal departments of all sizes.",
+    "author": "Elena Vasquez",
+    "date": "2026-06-01T10:00:00Z",
+    "category": "Contract Review",
+    "image": "/src/assets/images/blog-ai-contract-review.jpg",
+    "content": [
+      "Contract review is one of the most time-consuming tasks for any legal team. A typical non-disclosure agreement can take 30-60 minutes to review manually, and high-stakes commercial agreements can take days. With CriterIA's AI-powered contract review, firms are reporting time savings of 70% or more on their routine reviews, freeing up senior attorneys to focus on high-value strategic work.",
+      "Our platform uses natural language processing to identify and categorize every clause in a contract within seconds. It cross-references each provision against your organization's playbook and thousands of market-standard precedents to flag deviations, missing clauses, and unusual risks. The system assigns a risk score to each clause and generates a plain-language summary so even non-lawyers on the business team can understand the key issues.",
+      "Beyond speed, AI contract review dramatically reduces human error. Studies show that even experienced attorneys miss up to 20% of problematic clauses when reviewing long contracts manually. CriterIA maintains 99% accuracy on clause identification and never gets fatigued. Combined with automated redlining suggestions and obligation extraction, it's like adding three junior associates to your team overnight.",
+      "The best part? Setup takes less than an hour. Upload your existing playbook or use one of our pre-built templates, and the AI begins learning your preferences from day one. Within two weeks, the system is calibrated to your specific risk tolerance, jurisdiction, and industry vertical."
+    ]
+  },
+  {
+    "id": "future-of-legal-research",
+    "title": "The Future of Legal Research: Beyond Boolean to Conversational AI",
+    "excerpt": "How natural language processing is making legal research faster, more intuitive, and accessible to non-specialists.",
+    "author": "David Koren",
+    "date": "2026-05-20T10:00:00Z",
+    "category": "Legal Research",
+    "image": "/src/assets/images/blog-legal-research.jpg",
+    "content": [
+      "For decades, legal research meant mastering Boolean operators, Westlaw key numbers, and the precise phrasing of search queries. A single research task could take hours of iterative searching and filtering. CriterIA's legal research module changes this paradigm entirely by allowing users to ask complex legal questions in plain English and receive citation-ready answers in seconds.",
+      "Our underlying model is built on a custom transformer architecture trained on over 40 million legal documents including case law, statutes, regulations, law review articles, and treatises from multiple jurisdictions. Unlike general-purpose AI, our legal engine understands concepts like burden of proof, stare decisis, and fiduciary duty in context. When you ask 'What is the standard for summary judgment in the Ninth Circuit?', the system knows to search for Celotex, Anderson, and Matsushita — the trilogy of Supreme Court cases that define the standard.",
+      "What sets CriterIA apart is our commitment to verifiability. Every answer includes direct citations with hyperlinks to the source material, parallel citations, and a confidence score. A built-in citation checker validates that the cited authority remains good law. For litigators, we also provide Shepard's-style treatment indicators and negative-treatment alerts so you never miss a case that's been overturned or criticized.",
+      "We predict that within five years, conversational AI will replace traditional Boolean search as the primary interface for legal research. CriterIA is investing heavily in multi-jurisdictional coverage, real-time regulatory updates, and integration with practice management platforms to make this future a reality."
+    ]
+  },
+  {
+    "id": "compliance-automation-guide",
+    "title": "Compliance Automation: A Practical Guide for Rapidly Growing SMEs",
+    "excerpt": "Learn how automated compliance monitoring helps growing businesses stay ahead of regulatory changes without hiring a full compliance team.",
+    "author": "Priya Mehta",
+    "date": "2026-05-10T10:00:00Z",
+    "category": "Compliance",
+    "image": "/src/assets/images/blog-compliance.jpg",
+    "content": [
+      "For SMEs and startups in regulated industries, compliance can feel like a game of whack-a-mole. Regulations change constantly, and the cost of non-compliance — fines, reputational damage, or even criminal liability — can be devastating. Yet most growing businesses cannot afford a dedicated compliance officer or a team of regulatory analysts.",
+      "CriterIA's Compliance Monitoring module changes this by providing real-time tracking of regulatory changes across thousands of government sources, industry bodies, and standards organizations. The system uses AI to assess which changes are relevant to your specific business based on your industry, jurisdiction, size, and operations. It then generates plain-language impact summaries and automatically updates your compliance calendar with new obligations and deadlines.",
+      "Our customers report that compliance monitoring reduces the time spent on regulatory tracking by 85%. One fintech startup using CriterIA discovered a proposed amendment to their state's money transmission laws three months before it went into effect, giving them ample time to adjust their compliance framework. Without the alert, they would have faced a potential six-figure penalty.",
+      "Getting started is straightforward: we pre-configure monitoring playbooks for over 50 industry verticals including fintech, healthcare, SaaS, manufacturing, and professional services. You can also create custom rules and add your own sources. The system integrates with your existing GRC tools via our API, and monthly compliance reports are auto-generated for board presentations."
+    ]
+  },
+  {
+    "id": "startup-legal-tips",
+    "title": "10 Legal Mistakes Every Startup Makes (And How CriterIA Helps You Avoid Them)",
+    "excerpt": "From founder agreements to IP protection, here are the most common legal pitfalls faced by early-stage startups and how AI tools can help.",
+    "author": "Carlos Mendes",
+    "date": "2026-04-25T10:00:00Z",
+    "category": "General",
+    "image": "/src/assets/images/blog-startup-tips.jpg",
+    "content": [
+      "Founders are laser-focused on product-market fit, fundraising, and growth, which means legal fundamentals often fall by the wayside. Unfortunately, skipping the legal basics in the early days can lead to catastrophic problems later — founder disputes, IP ownership battles, and even personal liability. Here are the ten most common legal mistakes we see at CriterIA, and how our tools can help you get them right from day one.",
+      "First among them is operating without a proper founder agreement. Many startups launch with verbal understandings about equity splits, roles, and vesting schedules, only to face bitter disputes when things get real. CriterIA's Document Automation tool includes a comprehensive founder agreement template with built-in best practices for vesting cliffs, IP assignment, and decision-making rights.",
+      "IP ownership is another critical blind spot. If your contractors, early employees, or even co-founders haven't signed proper assignment agreements, your company may not actually own its core technology. Our Contract Review tool can audit your existing agreements for IP assignment language and flag gaps. We also provide an IP assignment addendum generator that takes five minutes to complete.",
+      "Other common mistakes include ignoring data privacy regulations until the first customer asks about GDPR, using templates downloaded from the internet without localizing them for your jurisdiction, and failing to document board resolutions properly. CriterIA's Compliance Monitoring keeps you aware of privacy requirements in every jurisdiction where you operate, and our AI Legal Assistant can answer questions about corporate governance requirements in real time."
+    ]
+  },
+  {
+    "id": "how-ai-reduces-legal-costs",
+    "title": "How AI Is Democratizing Legal Services: Cutting Costs Without Cutting Corners",
+    "excerpt": "An in-depth look at how artificial intelligence is making quality legal services accessible to businesses that previously could not afford them.",
+    "author": "Elena Vasquez",
+    "date": "2026-04-10T10:00:00Z",
+    "category": "General",
+    "image": "/src/assets/images/blog-ai-costs.jpg",
+    "content": [
+      "The traditional legal services model is broken for small and medium businesses. With top law firms charging $500-$1,500 per hour, most SMEs simply cannot afford routine legal support. This creates a justice gap where the quality of legal representation correlates directly with the size of your budget. CriterIA was founded to close this gap using artificial intelligence.",
+      "Our data shows that companies using CriterIA reduce their external legal spend by an average of 65% within the first six months. For a typical startup spending $4,000 per month on outside counsel, that's an annual savings of more than $30,000. The savings come from three main areas: reduced billable hours for routine work, faster document turnaround eliminating rush fees, and early detection of issues that would have become expensive problems down the road.",
+      "But cost reduction does not mean cutting corners. CriterIA's AI is trained on the same legal standards and precedents that top law firms use. Every output is backed by citations and confidence scores, and our platform is designed as an assistive tool that augments human judgment rather than replacing it. For complex matters, CriterIA helps in-house counsel communicate more efficiently with external firms, reducing the time lawyers need to get up to speed.",
+      "We believe that access to quality legal intelligence should not be a luxury. By automating routine legal work and democratizing access to sophisticated analysis, CriterIA is helping level the playing field for SMEs and startups competing against larger, better-funded incumbents."
+    ]
+  },
+  {
+    "id": "case-study-nexo-ventures",
+    "title": "Case Study: How Nexo Ventures Slashed Contract Review Time by 70% with CriterIA",
+    "excerpt": "A deep dive into how a 50-person venture capital firm transformed its legal operations using AI-powered contract analysis.",
+    "author": "Priya Mehta",
+    "date": "2026-03-15T10:00:00Z",
+    "category": "Case Study",
+    "image": "/src/assets/images/blog-case-study.jpg",
+    "content": [
+      "Nexo Ventures is a mid-market venture capital firm that reviews an average of 120 term sheets, investment agreements, and portfolio company contracts every month. Before CriterIA, their two-person legal team was spending over 60 hours per week on contract review alone, leaving little time for strategic work like fund structuring, regulatory analysis, and supporting portfolio companies.",
+      "Nexo implemented CriterIA's Contract Review and Due Diligence modules across their entire workflow. The AI was configured with the firm's custom playbook — including their standard negotiated positions on liquidation preferences, anti-dilution provisions, information rights, and governance terms. Within two weeks of deployment, the system was matching the senior associate's clause-level analysis with 94% accuracy.",
+      "The results after three months were striking. Contract review time dropped from an average of 4.5 hours per agreement to just 1.2 hours — a 73% reduction. The legal team reallocated the saved time to proactive portfolio support, helping their portfolio companies with compliance readiness ahead of their Series A rounds. The firm also reported catching three instances of unfavorable drag-along provisions that their manual review process had missed in the past.",
+      "Sofia Ramírez, General Counsel at Nexo Ventures, summarizes: 'CriterIA didn't just make us faster; it made us better. We review more deals, catch more issues, and our portfolio companies get better legal support as a result. The ROI was obvious within the first month.' Nexo has since expanded their CriterIA deployment to include Compliance Monitoring for their portfolio companies' regulatory obligations."
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .alert {
+            background-color: aqua
+        }
+
+        .error {
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="login" action="/login">
+        <input id="password" type="text" name="password" id="password">
+        <button type="submit">login</button>
+    </form>
+
+    <div class="alert">
+    </div>
+
+    <script>
+        document.getElementById('login').addEventListener('submit', validarLogin)
+
+        const alert = document.querySelector('.alert')
+
+        async function validarLogin(e) {
+            e.preventDefault();
+            const password = document.getElementById('password').value;
+
+            try {
+                const response = await fetch('http://localhost:3000/login', {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        "password": password
+                    })
+                });
+                const data = await response.json()
+                console.log(data)
+                if (data.valido) {
+                    alert.textContent = "Contraseña válida"
+                } else {
+                    alert.textContent = "Error en contraseña"
+                    alert.classList.add('error')
+
+
+                }
+            }
+            catch (error) {
+                console.error("No hemos podido hacer esto: " + error)
+            }
+        }
+    </script>
+</body>

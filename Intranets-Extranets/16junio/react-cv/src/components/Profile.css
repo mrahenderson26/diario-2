@@ -1,0 +1,52 @@
+.profile-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
+  gap: 1rem;
+}
+
+.profile-text {
+  padding: 1.2rem;
+  border-radius: 6px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.profile-text p {
+  margin: 0 0 1rem;
+  color: #334155;
+  line-height: 1.8;
+}
+
+.profile-text p:last-child {
+  margin-bottom: 0;
+}
+
+.highlight-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.highlight-card {
+  padding: 1.1rem;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid #1d4ed8;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.highlight-card h3 {
+  margin: 0 0 0.35rem;
+  color: #0f172a;
+}
+
+.highlight-card p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.65;
+}
+
+@media (max-width: 800px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}

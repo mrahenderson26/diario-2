@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs")%>
+
+<h1>Solicita tu ticket</h1>
+
+<form action="/create" method="POST">
+
+    <div>
+        <input class="form-control" type="text" name="nombre" placeholder="Nombre" required>
+    </div>
+
+    <div>
+        <input class="form-control" type="email" name="email" placeholder="Email" required>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Crear</button>
+
+</form>
+
+<%- include("partials/footer.ejs")%>

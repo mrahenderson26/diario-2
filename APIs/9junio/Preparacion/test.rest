@@ -1,0 +1,34 @@
+###
+GET http://localhost:3000/aficiones
+
+###
+POST http://localhost:3000/aficiones
+Content-Type: application/json
+
+{
+    "nombre": "Jog"
+}
+
+###
+POST http://localhost:3000/aficiones
+Content-Type: application/json
+
+{
+    "nombre": "Run"
+}
+
+###
+POST http://localhost:3000/aficiones
+Content-Type: application/json
+
+{
+    "nombre": "Eat"
+}
+
+###
+DELETE http://localhost:3000/aficiones/2
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/todo/1
+Content-Type: application/json

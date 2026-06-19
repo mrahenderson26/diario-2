@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi App del Tiempo</title>
+    <style>
+        .rojo {
+            color: red;
+        }
+
+        .azul {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Busca el tiempo en tu ciduad</h1>
+    <input type="search" name="" id="ciudad">
+    <button id="mostrar">Mostrar Tiempo</button>
+    <div id="resultado"></div>
+    
+    <script>
+        const ciudad = document.getElementById('ciudad')
+        const btnMostrar = document.getElementById('mostrar')
+
+        async function obtenerTiempo() {
+            try {
+                const urlCiudad = `https://geocoding-api.open-meteo.com/v1/search?name=${ciudad.value}&count=1`
+                const responseUrl = await fetch(urlCiudad)
+                const datageo = await responseUrl.json()
+                const lat = datageo.results[0].latitude;
+                const lon = datageo.results[0].longitude;
+
+                const url =
+                    `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,wind_speed_10m`;
+
+                const respuesta = await fetch(url);
+                const datos = await respuesta.json();
+                
+                let temperatura = datos.current.temperature_2m
+                let viento = datos.current.wind_speed_10m
+                const color = temperatura < 20 ? "azul" : "rojo"
+                document.getElementById("resultado").innerHTML = `
+                   <p class=${color}>Temperatura: ${temperatura} °C</p>
+                   <p>Viento: ${viento} km/h</p>
+               `;
+            } catch (error) {
+                console.error(error);
+                document.getElementById("resultado").textContent =
+                    "Error obteniendo datos";
+            }
+        }
+
+        btnMostrar.addEventListener('click', obtenerTiempo)
+        //obtenerTiempo();
+    </script>
+</body>
+
+</html>
