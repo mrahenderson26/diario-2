@@ -1,0 +1,11 @@
+.contador-caracteres__textarea {
+  min-height: 8rem;
+}
+
+.contador-caracteres__result {
+  font-weight: 700;
+  background: #eef2ff;
+  border-left: 4px solid #1f2937;
+  padding: 0.8rem;
+  margin: 0;
+}

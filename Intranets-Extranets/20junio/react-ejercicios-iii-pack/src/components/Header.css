@@ -1,0 +1,26 @@
+.main-header {
+  background: white;
+  border: 1px solid #d7dfed;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+}
+
+.main-header h1 {
+  margin: 0.2rem 0 0.7rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+.main-header p {
+  max-width: 760px;
+  line-height: 1.6;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #1f4fd8;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 0.85rem;
+}

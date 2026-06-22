@@ -1,0 +1,10 @@
+.mini-web-footer {
+  padding: 14px 16px;
+  border-top: 1px solid #cbd5e1;
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.mini-web-footer__text {
+  margin: 0;
+}

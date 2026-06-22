@@ -1,0 +1,56 @@
+.exercise-card {
+  background: white;
+  border: 1px solid #d1d5db;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.exercise-number {
+  margin: 0;
+  color: #475569;
+  font-weight: 700;
+}
+
+.exercise-card h2 {
+  margin: 0.25rem 0;
+}
+
+.objective {
+  color: #475569;
+  margin-top: 0;
+}
+
+.exercise-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.exercise-card button {
+  border: none;
+  background: #1f2937;
+  color: white;
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+}
+
+.exercise-card button:hover {
+  background: #374151;
+}
+
+.exercise-card input,
+.exercise-card textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  padding: 0.65rem;
+  background: white;
+}
+
+.exercise-card textarea {
+  resize: vertical;
+}
+
+@media (max-width: 600px) {
+  .exercise-card {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.cursos-page {
+  background: white;
+  border: 1px solid #d7dfed;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  padding: 2rem;
+}
+
+.cursos-page h2 {
+  margin-top: 0;
+}
+
+.cursos-list {
+  line-height: 1.7;
+}

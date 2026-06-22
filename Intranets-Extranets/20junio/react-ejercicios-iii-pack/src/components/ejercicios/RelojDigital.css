@@ -1,0 +1,25 @@
+.reloj-digital-card {
+  background: white;
+  border: 1px solid #d7dfed;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  padding: 1.25rem;
+}
+
+.reloj-digital-card h3 {
+  margin-top: 0;
+}
+
+.reloj-digital-clock {
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  background: #101828;
+  color: #eaf0ff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.reloj-digital-hint {
+  color: #5a667d;
+  font-size: 0.95rem;
+}

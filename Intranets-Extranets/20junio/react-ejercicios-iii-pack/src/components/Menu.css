@@ -1,0 +1,28 @@
+.top-menu {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  background: rgba(238, 242, 247, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid #d7dfed;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.top-menu a {
+  color: #25324a;
+  text-decoration: none;
+  padding: 0.7rem 0.9rem;
+  background: white;
+  border: 1px solid #d7dfed;
+}
+
+.top-menu a:hover,
+.top-menu a.active {
+  color: white;
+  background: #1f4fd8;
+  border-color: #1f4fd8;
+}

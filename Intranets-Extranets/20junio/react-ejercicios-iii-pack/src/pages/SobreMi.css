@@ -1,0 +1,17 @@
+.sobre-mi-page {
+  background: white;
+  border: 1px solid #d7dfed;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  padding: 2rem;
+}
+
+.sobre-mi-page h2 {
+  margin-top: 0;
+}
+
+.profile-box {
+  background: #f8fafc;
+  border: 1px solid #d7dfed;
+  padding: 1rem;
+  margin-top: 1rem;
+}

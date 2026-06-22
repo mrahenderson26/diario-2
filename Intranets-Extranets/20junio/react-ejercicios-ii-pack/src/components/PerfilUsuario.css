@@ -1,0 +1,14 @@
+.perfil-usuario__form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.perfil-usuario__box {
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  padding: 1rem;
+}
+
+.perfil-usuario__box h3 {
+  margin-top: 0;
+}

@@ -1,0 +1,13 @@
+.perfil {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  padding: 16px;
+}
+
+.perfil__nombre {
+  margin: 0 0 8px;
+}
+
+.perfil__dato {
+  margin: 6px 0;
+}

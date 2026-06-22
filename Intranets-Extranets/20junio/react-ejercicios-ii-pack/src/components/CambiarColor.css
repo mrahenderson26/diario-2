@@ -1,0 +1,11 @@
+.cambiar-color__square {
+  width: 140px;
+  height: 140px;
+  border: 1px solid #111827;
+}
+
+.cambiar-color__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

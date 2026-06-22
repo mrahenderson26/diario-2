@@ -1,0 +1,17 @@
+.usuarios-layout {
+  background: white;
+  border: 1px solid #d7dfed;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  padding: 2rem;
+}
+
+.usuarios-layout h2 {
+  margin-top: 0;
+}
+
+.usuarios-layout code {
+  background: #e6ebf5;
+  color: #10204a;
+  padding: 0.08rem 0.3rem;
+  border-radius: 0.25rem;
+}

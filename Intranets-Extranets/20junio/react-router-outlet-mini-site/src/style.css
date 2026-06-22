@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+code {
+  background: #e5e7eb;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  color: #111827;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-header,
+.site-footer,
+.page-panel,
+.nested-panel,
+.explanation-box {
+  border: 1px solid #d1d5db;
+  background: white;
+}
+
+.site-header {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.main-nav,
+.sub-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.main-nav a,
+.sub-nav a,
+.button-link {
+  border: 1px solid #9ca3af;
+  color: #111827;
+  text-decoration: none;
+  padding: 0.55rem 0.8rem;
+  background: #f9fafb;
+}
+
+.main-nav a:hover,
+.sub-nav a:hover,
+.button-link:hover {
+  background: #e5e7eb;
+}
+
+.page-panel {
+  min-height: 320px;
+  padding: 1.5rem;
+}
+
+.nested-panel,
+.explanation-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f9fafb;
+}
+
+.site-footer {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  color: #4b5563;
+}

@@ -1,0 +1,25 @@
+.pagina404-page {
+  background: white;
+  border: 1px solid #ffc6c6;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  padding: 2rem;
+}
+
+.pagina404-page h2 {
+  margin-top: 0;
+}
+
+.pagina404-link {
+  border: 0;
+  background: #1f4fd8;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.45rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pagina404-link:hover {
+  background: #173da8;
+}

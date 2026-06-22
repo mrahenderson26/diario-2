@@ -1,0 +1,11 @@
+.alumno__linea {
+  margin: 8px 0;
+}
+
+.alumno__linea:first-child {
+  margin-top: 0;
+}
+
+.alumno__linea:last-child {
+  margin-bottom: 0;
+}

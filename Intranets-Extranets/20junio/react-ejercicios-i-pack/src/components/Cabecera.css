@@ -1,0 +1,9 @@
+.mini-web-header {
+  padding: 14px 16px;
+  border-bottom: 1px solid #cbd5e1;
+  background: #e2e8f0;
+}
+
+.mini-web-header__title {
+  margin: 0;
+}

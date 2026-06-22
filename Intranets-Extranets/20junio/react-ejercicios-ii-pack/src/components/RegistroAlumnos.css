@@ -1,0 +1,27 @@
+.registro-alumnos__form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.registro-alumnos__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: white;
+}
+
+.registro-alumnos__table th,
+.registro-alumnos__table td {
+  border: 1px solid #d1d5db;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+.registro-alumnos__table th {
+  background: #e5e7eb;
+}
+
+.registro-alumnos__empty {
+  color: #6b7280;
+  margin: 0;
+}

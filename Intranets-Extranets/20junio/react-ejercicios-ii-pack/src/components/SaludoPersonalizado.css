@@ -1,0 +1,13 @@
+.saludo-personalizado__label {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.saludo-personalizado__result {
+  font-weight: 700;
+  background: #eef2ff;
+  border-left: 4px solid #1f2937;
+  padding: 0.8rem;
+  margin: 0;
+}

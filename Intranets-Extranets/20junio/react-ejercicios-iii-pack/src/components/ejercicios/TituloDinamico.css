@@ -1,0 +1,41 @@
+.titulo-dinamico-card {
+  background: white;
+  border: 1px solid #d7dfed;
+  box-shadow: 0 8px 24px rgba(30, 41, 59, 0.08);
+  padding: 1.25rem;
+}
+
+.titulo-dinamico-card h3 {
+  margin-top: 0;
+}
+
+.counter-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.counter-row strong {
+  min-width: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.titulo-dinamico-button {
+  border: 0;
+  background: #1f4fd8;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.45rem;
+  cursor: pointer;
+}
+
+.titulo-dinamico-button:hover {
+  background: #173da8;
+}
+
+.titulo-dinamico-hint {
+  color: #5a667d;
+  font-size: 0.95rem;
+}

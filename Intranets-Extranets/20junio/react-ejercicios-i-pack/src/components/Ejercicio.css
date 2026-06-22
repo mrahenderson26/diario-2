@@ -1,0 +1,21 @@
+.ejercicio {
+  background: #ffffff;
+  border: 1px solid #d8dee9;
+  border-radius: 10px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.ejercicio__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+
+.ejercicio__objetivo {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #64748b;
+  font-size: 0.95rem;
+}

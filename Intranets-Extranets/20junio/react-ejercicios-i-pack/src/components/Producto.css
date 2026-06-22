@@ -1,0 +1,9 @@
+.producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+}

@@ -1,0 +1,34 @@
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  background: #f8fafc;
+  border: 1px solid #d7dfed;
+  color: #172033;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.user-card:hover {
+  border-color: #1f4fd8;
+  box-shadow: 0 8px 18px rgba(31, 79, 216, 0.12);
+}
+
+.user-card span {
+  color: #5a667d;
+  word-break: break-word;
+}
+
+.lista-usuarios-error {
+  background: #fff0f0;
+  color: #a40000;
+  border: 1px solid #ffc6c6;
+  padding: 0.8rem;
+}
