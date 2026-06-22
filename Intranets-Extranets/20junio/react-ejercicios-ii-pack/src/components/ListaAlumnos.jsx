@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import ExerciseCard from './ExerciseCard.jsx';
-import './ListaAlumnos.css';
 
 export default function ListaAlumnos() {
   const [nombreListaAlumno, setNombreListaAlumno] = useState('');
@@ -31,13 +29,8 @@ export default function ListaAlumnos() {
   }
 
   return (
-    <ExerciseCard
-      className="lista-alumnos"
-      number="9 y 10"
-      title="Lista de alumnos y eliminar elementos"
-      objective="Trabajar con arrays, renderizado y eliminación de elementos"
-    >
-      <form onSubmit={anadirAlumnoLista} className="lista-alumnos__form">
+    <>
+      <form onSubmit={anadirAlumnoLista}>
         <input
           type="text"
           value={nombreListaAlumno}
@@ -48,7 +41,7 @@ export default function ListaAlumnos() {
         <button type="submit">Añadir alumno</button>
       </form>
 
-      <ul className="lista-alumnos__list">
+      <ul>
         {listaAlumnos.map((alumno) => (
           <li key={alumno.id}>
             <span>{alumno.nombre}</span>
@@ -58,8 +51,8 @@ export default function ListaAlumnos() {
       </ul>
 
       {listaAlumnos.length === 0 && (
-        <p className="lista-alumnos__empty">Añade alumnos para verlos en la lista.</p>
+        <p>Añade alumnos para verlos en la lista.</p>
       )}
-    </ExerciseCard>
+    </>
   );
 }

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './ApiPosts.css';
 
 export default function ApiPosts() {
   const [posts, setPosts] = useState([]);
@@ -27,21 +26,17 @@ export default function ApiPosts() {
   }, []);
 
   return (
-    <article className="api-posts-card">
-      <h3>8. API de publicaciones</h3>
-      <p>Muestra el id y el título de los primeros 10 posts.</p>
-
+    <section>
+      <h3>API de publicaciones</h3>
       {cargando && <p>Cargando publicaciones...</p>}
-      {error && <p className="api-posts-error">{error}</p>}
-
-      <ol className="post-list">
+      {error && <p>{error}</p>}
+      <ol>
         {posts.map((post) => (
-          // key ayuda a React a identificar cada elemento cuando cambia la lista.
           <li key={post.id}>
-            <span>#{post.id}</span> {post.title}
+            #{post.id} {post.title}
           </li>
         ))}
       </ol>
-    </article>
+    </section>
   );
 }

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './ApiUsuariosSimple.css';
 
 export default function ApiUsuariosSimple() {
   const [usuarios, setUsuarios] = useState([]);
@@ -25,32 +24,17 @@ export default function ApiUsuariosSimple() {
   }, []);
 
   return (
-    <article className="api-usuarios-card">
-      <h3>7. API de usuarios</h3>
-      <p>Consume una API y muestra nombre y email.</p>
-
-      {/* Estos renderizados condicionales dependen del estado actual. */}
+    <section>
+      <h3>API de usuarios</h3>
       {cargando && <p>Cargando usuarios...</p>}
-      {error && <p className="api-usuarios-error">{error}</p>}
-
-      <div className="api-usuarios-table-wrapper">
-        <table className="api-usuarios-table">
-          <thead>
-            <tr>
-              <th>Nombre</th>
-              <th>Email</th>
-            </tr>
-          </thead>
-          <tbody>
-            {usuarios.map((usuario) => (
-              <tr key={usuario.id}>
-                <td>{usuario.name}</td>
-                <td>{usuario.email}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </article>
+      {error && <p>{error}</p>}
+      <ul>
+        {usuarios.map((usuario) => (
+          <li key={usuario.id}>
+            {usuario.name} - {usuario.email}
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

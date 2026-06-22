@@ -1,18 +1,11 @@
 import { useState } from 'react';
-import ExerciseCard from './ExerciseCard.jsx';
-import './SaludoPersonalizado.css';
 
 export default function SaludoPersonalizado() {
   const [nombreSaludo, setNombreSaludo] = useState('');
 
   return (
-    <ExerciseCard
-      className="saludo-personalizado"
-      number="4"
-      title="Saludo personalizado"
-      objective="Practicar onChange"
-    >
-      <label className="saludo-personalizado__label">
+    <>
+      <label>
         Nombre:
         <input
           type="text"
@@ -23,7 +16,7 @@ export default function SaludoPersonalizado() {
       </label>
 
       {/* || muestra José mientras nombreSaludo esté vacío. */}
-      <p className="saludo-personalizado__result">Hola {nombreSaludo || 'José'}</p>
-    </ExerciseCard>
+      <p>Hola {nombreSaludo || 'José'}</p>
+    </>
   );
 }

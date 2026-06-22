@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import ExerciseCard from './ExerciseCard.jsx';
-import './CalculadoraSimple.css';
 
 export default function CalculadoraSimple() {
   const [numero1, setNumero1] = useState('');
@@ -32,13 +30,8 @@ export default function CalculadoraSimple() {
   }
 
   return (
-    <ExerciseCard
-      className="calculadora-simple"
-      number="1"
-      title="Calculadora simple"
-      objective="Practicar useState y eventos onClick"
-    >
-      <div className="calculadora-simple__inputs">
+    <>
+      <div>
         <input
           type="number"
           value={numero1}
@@ -54,7 +47,7 @@ export default function CalculadoraSimple() {
         />
       </div>
 
-      <div className="calculadora-simple__buttons">
+      <div>
         <button onClick={() => calcular('+')}>+</button>
         <button onClick={() => calcular('-')}>-</button>
         <button onClick={() => calcular('*')}>*</button>
@@ -62,7 +55,7 @@ export default function CalculadoraSimple() {
       </div>
 
       {/* ?? solo muestra '---' cuando el resultado es null o undefined, no cuando es 0. */}
-      <p className="calculadora-simple__result">Resultado: {resultadoCalculadora ?? '---'}</p>
-    </ExerciseCard>
+      <p>Resultado: {resultadoCalculadora ?? '---'}</p>
+    </>
   );
 }

@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import ExerciseCard from './ExerciseCard.jsx';
-import './RegistroAlumnos.css';
 
 export default function RegistroAlumnos() {
   const [nombreAlumno, setNombreAlumno] = useState('');
@@ -35,13 +33,8 @@ export default function RegistroAlumnos() {
   }
 
   return (
-    <ExerciseCard
-      className="registro-alumnos"
-      number="6"
-      title="Registro de alumnos"
-      objective="Gestionar varios campos"
-    >
-      <form onSubmit={registrarAlumno} className="registro-alumnos__form">
+    <>
+      <form onSubmit={registrarAlumno}>
         <input
           type="text"
           value={nombreAlumno}
@@ -66,7 +59,7 @@ export default function RegistroAlumnos() {
         <button type="submit">Registrar</button>
       </form>
 
-      <table className="registro-alumnos__table">
+      <table>
         <thead>
           <tr>
             <th>Nombre</th>
@@ -86,8 +79,8 @@ export default function RegistroAlumnos() {
       </table>
 
       {alumnosRegistrados.length === 0 && (
-        <p className="registro-alumnos__empty">Todavía no hay alumnos registrados.</p>
+        <p>Todavía no hay alumnos registrados.</p>
       )}
-    </ExerciseCard>
+    </>
   );
 }
