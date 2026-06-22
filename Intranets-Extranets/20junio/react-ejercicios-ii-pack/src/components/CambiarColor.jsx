@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './CambiarColor.css';
 
 export default function CambiarColor() {
   const [colorCuadrado, setColorCuadrado] = useState('red');
@@ -6,6 +7,8 @@ export default function CambiarColor() {
   return (
     <>
       <p>Color actual: {colorCuadrado}</p>
+
+      <div className={`cuadrado cuadrado--${colorCuadrado}`}></div>
 
       <div>
         <button onClick={() => setColorCuadrado('red')}>Rojo</button>

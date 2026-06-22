@@ -1,0 +1,14 @@
+{
+  "name": "first-docker-express-container",
+  "version": "1.0.0",
+  "description": "A tiny Express backend for learning Docker.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

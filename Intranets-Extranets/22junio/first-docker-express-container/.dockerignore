@@ -1,0 +1,9 @@
+# Do not copy local dependencies into the Docker image.
+node_modules
+
+# Do not copy logs or temporary files.
+npm-debug.log
+.DS_Store
+.env
+.git
+.gitignore
