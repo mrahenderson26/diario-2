@@ -19,26 +19,11 @@ export default function PerfilUsuario() {
   return (
     <>
       <div>
-        <input
-          type="text"
-          value={perfil.nombre}
-          onChange={(e) => actualizarPerfil('nombre', e.target.value)}
-          placeholder="Nombre"
-        />
+        <input type="text" value={perfil.nombre} onChange={(e) => actualizarPerfil('nombre', e.target.value)} placeholder="Nombre"/>
 
-        <input
-          type="number"
-          value={perfil.edad}
-          onChange={(e) => actualizarPerfil('edad', e.target.value)}
-          placeholder="Edad"
-        />
+        <input type="number" value={perfil.edad} onChange={(e) => actualizarPerfil('edad', e.target.value)} placeholder="Edad"/>
 
-        <input
-          type="text"
-          value={perfil.profesion}
-          onChange={(e) => actualizarPerfil('profesion', e.target.value)}
-          placeholder="Profesión"
-        />
+        <input type="text" value={perfil.profesion} onChange={(e) => actualizarPerfil('profesion', e.target.value)} placeholder="Profesión"/>
       </div>
 
       <div>

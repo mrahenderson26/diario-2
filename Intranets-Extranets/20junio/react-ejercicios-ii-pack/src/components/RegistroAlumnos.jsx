@@ -35,26 +35,11 @@ export default function RegistroAlumnos() {
   return (
     <>
       <form onSubmit={registrarAlumno}>
-        <input
-          type="text"
-          value={nombreAlumno}
-          onChange={(e) => setNombreAlumno(e.target.value)}
-          placeholder="Nombre"
-        />
+        <input type="text" value={nombreAlumno} onChange={(e) => setNombreAlumno(e.target.value)} placeholder="Nombre"/>
 
-        <input
-          type="text"
-          value={apellidosAlumno}
-          onChange={(e) => setApellidosAlumno(e.target.value)}
-          placeholder="Apellidos"
-        />
+        <input type="text" value={apellidosAlumno} onChange={(e) => setApellidosAlumno(e.target.value)} placeholder="Apellidos"/>
 
-        <input
-          type="email"
-          value={emailAlumno}
-          onChange={(e) => setEmailAlumno(e.target.value)}
-          placeholder="Email"
-        />
+        <input type="email" value={emailAlumno} onChange={(e) => setEmailAlumno(e.target.value)} placeholder="Email"/>
 
         <button type="submit">Registrar</button>
       </form>

@@ -7,12 +7,7 @@ export default function SaludoPersonalizado() {
     <>
       <label>
         Nombre:
-        <input
-          type="text"
-          value={nombreSaludo}
-          onChange={(e) => setNombreSaludo(e.target.value)}
-          placeholder="Escribe tu nombre"
-        />
+        <input type="text" value={nombreSaludo} onChange={(e) => setNombreSaludo(e.target.value)} placeholder="Escribe tu nombre"/>
       </label>
 
       {/* || muestra José mientras nombreSaludo esté vacío. */}

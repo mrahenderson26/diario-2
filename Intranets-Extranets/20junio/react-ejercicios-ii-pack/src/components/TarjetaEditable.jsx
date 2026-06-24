@@ -22,19 +22,8 @@ export default function TarjetaEditable() {
       </div>
 
       <div>
-        <input
-          type="text"
-          value={producto.nombre}
-          onChange={(e) => actualizarProducto('nombre', e.target.value)}
-          placeholder="Producto"
-        />
-
-        <input
-          type="number"
-          value={producto.precio}
-          onChange={(e) => actualizarProducto('precio', e.target.value)}
-          placeholder="Precio"
-        />
+        <input type="text" value={producto.nombre} onChange={(e) => actualizarProducto('nombre', e.target.value)} placeholder="Producto"/>
+        <input type="number" value={producto.precio} onChange={(e) => actualizarProducto('precio', e.target.value)} placeholder="Precio"/>
       </div>
     </>
   );

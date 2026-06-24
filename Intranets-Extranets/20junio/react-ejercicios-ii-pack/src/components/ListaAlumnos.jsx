@@ -31,12 +31,7 @@ export default function ListaAlumnos() {
   return (
     <>
       <form onSubmit={anadirAlumnoLista}>
-        <input
-          type="text"
-          value={nombreListaAlumno}
-          onChange={(e) => setNombreListaAlumno(e.target.value)}
-          placeholder="Nombre del alumno"
-        />
+        <input type="text" value={nombreListaAlumno} onChange={(e) => setNombreListaAlumno(e.target.value)} placeholder="Nombre del alumno"/>
 
         <button type="submit">Añadir alumno</button>
       </form>

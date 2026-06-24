@@ -32,19 +32,9 @@ export default function CalculadoraSimple() {
   return (
     <>
       <div>
-        <input
-          type="number"
-          value={numero1}
-          onChange={(e) => setNumero1(e.target.value)}
-          placeholder="Primer número"
-        />
+        <input type="number" value={numero1} onChange={(e) => setNumero1(e.target.value)} placeholder="Primer número"/>
 
-        <input
-          type="number"
-          value={numero2}
-          onChange={(e) => setNumero2(e.target.value)}
-          placeholder="Segundo número"
-        />
+        <input type="number" value={numero2} onChange={(e) => setNumero2(e.target.value)} placeholder="Segundo número"/>
       </div>
 
       <div>
