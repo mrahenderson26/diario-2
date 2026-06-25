@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "titulo": "Estudiar Node"
+  },
+  {
+    "id": 3,
+    "titulo": "Estudiar Python"
+  },
+  {
+    "id": 4,
+    "titulo": "Estudiar Django"
+  }
+]

@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/tareas-db
+
+###
+POST http://localhost:3000/tareas-db
+Content-Type: application/json
+
+{
+    "titulo": "Estudiar Django"
+}
+
+###
+DELETE http://localhost:3000/tareas/1

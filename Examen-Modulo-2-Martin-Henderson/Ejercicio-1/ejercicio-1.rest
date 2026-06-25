@@ -1,0 +1,8 @@
+###
+GET http://localhost:3000/saludo
+
+###
+GET http://localhost:3000/fecha
+
+###
+GET http://localhost:3000/sumar?a=2&b=3
