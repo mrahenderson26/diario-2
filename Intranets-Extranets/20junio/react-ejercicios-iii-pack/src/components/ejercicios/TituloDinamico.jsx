@@ -4,7 +4,6 @@ export default function TituloDinamico() {
   const [contador, setContador] = useState(0);
 
   useEffect(() => {
-    // [contador] hace que el efecto se repita solo cuando cambia ese estado.
     document.title = `Contador: ${contador}`;
   }, [contador]);
 

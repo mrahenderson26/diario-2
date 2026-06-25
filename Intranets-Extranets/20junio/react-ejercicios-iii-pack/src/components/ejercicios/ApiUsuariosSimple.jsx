@@ -6,7 +6,6 @@ export default function ApiUsuariosSimple() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    // La función es async, pero se llama desde dentro del efecto.
     async function obtenerUsuarios() {
       try {
         const respuesta = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -15,7 +14,6 @@ export default function ApiUsuariosSimple() {
       } catch (error) {
         setError('No se pudieron cargar los usuarios.');
       } finally {
-        // Evita que el mensaje de carga se quede visible para siempre.
         setCargando(false);
       }
     }

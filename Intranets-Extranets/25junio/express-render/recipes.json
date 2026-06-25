@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "ingredients": ["400g spaghetti", "200g guanciale", "4 eggs", "100g pecorino", "black pepper"],
+    "instructions": "Cook spaghetti al dente. Fry guanciale until crispy. Beat eggs with grated pecorino. Toss hot pasta with guanciale, then quickly mix in egg mixture. Serve with extra pecorino and black pepper."
+  },
+  {
+    "id": 2,
+    "title": "Classic Pancakes",
+    "ingredients": ["1 cup flour", "2 tbsp sugar", "1 cup milk", "1 egg", "2 tbsp butter", "1 tsp baking powder"],
+    "instructions": "Mix dry ingredients. Whisk milk and egg, then combine with dry mix. Melt butter in pan. Pour batter, flip when bubbly. Serve with syrup."
+  },
+  {
+    "id": 3,
+    "title": "Chicken Tikka Masala",
+    "ingredients": ["500g chicken breast", "1 cup yogurt", "2 tbsp tikka masala paste", "400ml tomato sauce", "200ml cream", "onion", "garlic", "ginger"],
+    "instructions": "Marinate chicken in yogurt and paste for 2 hours. Grill or bake until charred. Sauté onion, garlic, ginger. Add tomato sauce and cream, simmer. Add chicken, cook 10 min. Serve with rice."
+  }
+]

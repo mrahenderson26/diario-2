@@ -1,29 +1,24 @@
 import { useState } from 'react';
 
 export default function ListaAlumnos() {
-  const [nombreListaAlumno, setNombreListaAlumno] = useState('');
+  const [nombreAlumno, setNombreAlumno] = useState('');
   const [listaAlumnos, setListaAlumnos] = useState([]);
 
   function anadirAlumnoLista(e) {
-    // Sin esto, el submit del formulario recargaría la página.
     e.preventDefault();
 
-    // trim evita añadir nombres vacíos hechos solo con espacios.
-    if (nombreListaAlumno.trim() === '') return;
+    if (nombreAlumno.trim() === '') return;
 
     const nuevoAlumno = {
-      // Usamos un id para que React identifique cada <li> al renderizar la lista.
       id: Date.now(),
-      nombre: nombreListaAlumno
+      nombre: nombreAlumno
     };
 
-    // Creamos un array nuevo; no modificamos listaAlumnos directamente.
     setListaAlumnos([...listaAlumnos, nuevoAlumno]);
-    setNombreListaAlumno('');
+    setNombreAlumno('');
   }
 
   function eliminarAlumno(id) {
-    // filter devuelve un nuevo array sin el alumno cuyo id coincida.
     const alumnosFiltrados = listaAlumnos.filter((alumno) => alumno.id !== id);
     setListaAlumnos(alumnosFiltrados);
   }
@@ -31,7 +26,7 @@ export default function ListaAlumnos() {
   return (
     <>
       <form onSubmit={anadirAlumnoLista}>
-        <input type="text" value={nombreListaAlumno} onChange={(e) => setNombreListaAlumno(e.target.value)} placeholder="Nombre del alumno"/>
+        <input type="text" value={nombreAlumno} onChange={(e) => setNombreAlumno(e.target.value)} placeholder="Nombre del alumno"/>
 
         <button type="submit">Añadir alumno</button>
       </form>
@@ -40,6 +35,7 @@ export default function ListaAlumnos() {
         {listaAlumnos.map((alumno) => (
           <li key={alumno.id}>
             <span>{alumno.nombre}</span>
+            
             <button onClick={() => eliminarAlumno(alumno.id)}>Eliminar</button>
           </li>
         ))}
@@ -51,3 +47,4 @@ export default function ListaAlumnos() {
     </>
   );
 }
+

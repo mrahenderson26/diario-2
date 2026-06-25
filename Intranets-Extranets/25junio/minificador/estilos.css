@@ -1,0 +1,12 @@
+/* estilos.css */
+
+body {
+   background-color: white;
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   color: blue;
+   font-size: 32px;
+}

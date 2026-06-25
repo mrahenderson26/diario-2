@@ -9,9 +9,7 @@ export default function PerfilUsuario() {
 
   function actualizarPerfil(propiedad, valor) {
     setPerfil({
-      // Copiamos el objeto anterior para no borrar las demás propiedades.
       ...perfil,
-      // Los corchetes permiten elegir la propiedad usando una variable.
       [propiedad]: valor
     });
   }

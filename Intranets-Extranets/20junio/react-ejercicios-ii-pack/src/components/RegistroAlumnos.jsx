@@ -7,7 +7,6 @@ export default function RegistroAlumnos() {
   const [alumnosRegistrados, setAlumnosRegistrados] = useState([]);
 
   function registrarAlumno(e) {
-    // Sin preventDefault, el formulario enviaría la página y perderíamos el estado.
     e.preventDefault();
 
     if (nombreAlumno.trim() === '' || apellidosAlumno.trim() === '' || emailAlumno.trim() === '') {
@@ -16,17 +15,14 @@ export default function RegistroAlumnos() {
     }
 
     const nuevoAlumno = {
-      // Este id no se muestra, pero React lo usa como key en la tabla.
       id: Date.now(),
       nombre: nombreAlumno,
       apellidos: apellidosAlumno,
       email: emailAlumno
     };
 
-    // React detecta mejor los cambios si creamos un array nuevo.
     setAlumnosRegistrados([...alumnosRegistrados, nuevoAlumno]);
 
-    // Al limpiar estos estados, también se vacían los inputs controlados.
     setNombreAlumno('');
     setApellidosAlumno('');
     setEmailAlumno('');

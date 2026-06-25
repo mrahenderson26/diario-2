@@ -6,7 +6,6 @@ export default function CalculadoraSimple() {
   const [resultadoCalculadora, setResultadoCalculadora] = useState(null);
 
   function calcular(operacion) {
-    // Aunque el input sea type="number", React guarda su value como texto.
     const n1 = Number(numero1);
     const n2 = Number(numero2);
 
@@ -15,7 +14,6 @@ export default function CalculadoraSimple() {
       return;
     }
 
-    // La operación llega desde el botón pulsado: calcular('+'), calcular('-'), etc.
     if (operacion === '+') setResultadoCalculadora(n1 + n2);
     if (operacion === '-') setResultadoCalculadora(n1 - n2);
     if (operacion === '*') setResultadoCalculadora(n1 * n2);
@@ -44,7 +42,6 @@ export default function CalculadoraSimple() {
         <button onClick={() => calcular('/')}>/</button>
       </div>
 
-      {/* ?? solo muestra '---' cuando el resultado es null o undefined, no cuando es 0. */}
       <p>Resultado: {resultadoCalculadora ?? '---'}</p>
     </>
   );

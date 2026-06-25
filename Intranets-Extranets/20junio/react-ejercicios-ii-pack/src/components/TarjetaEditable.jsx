@@ -8,7 +8,6 @@ export default function TarjetaEditable() {
 
   function actualizarProducto(propiedad, valor) {
     setProducto({
-      // El spread conserva la propiedad que no estamos editando.
       ...producto,
       [propiedad]: valor
     });

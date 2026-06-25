@@ -4,8 +4,6 @@ export default function MensajeAlCargar() {
   const [mensajeVisible, setMensajeVisible] = useState(false);
 
   useEffect(() => {
-    // Con [] se ejecuta al montar el componente, no en cada renderizado.
-    // En desarrollo, React.StrictMode puede mostrar este mensaje dos veces.
     console.log('Componente cargado');
     setMensajeVisible(true);
   }, []);

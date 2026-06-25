@@ -8,7 +8,6 @@ export default function RelojDigital() {
       setHora(new Date());
     }, 1000);
 
-    // Cleanup: evita que el intervalo siga funcionando si el componente desaparece.
     return () => {
       clearInterval(intervalo);
     };
